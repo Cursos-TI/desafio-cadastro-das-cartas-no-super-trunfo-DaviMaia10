@@ -8,16 +8,11 @@ int pontos_turisticos; // Numero de pontos turisticos
 char codigo[50];    //codigo da cidade . A01, A02, A03, A04...
 int populacao;  // populacao da cidade
 char pais[20];  //Nome do País
-char opçao[30];
 char nome[40];
 
 //Informações sobre os Países 
 printf("Serão 2 países e cada país tem 8 estados e 4 cidades;\n");
 printf("O primeiro pais será o Brasil.");
-printf("Digite SIM ou NAO se você entendeu.");
-scanf("%s", &opçao);
-printf("Sua opção: %s\n", opçao);
-
 
 printf("País: Brasil\n");
 scanf("%s", &nome);
